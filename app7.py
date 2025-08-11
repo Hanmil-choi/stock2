@@ -878,7 +878,7 @@ CODE_TO_NAME = {
     "402340": "SK스퀘어"
 }
 
-DATA_FOLDER = "/home/hanmil/backtest_app2"
+DATA_FOLDER = os.path.dirname(__file__)
 st.set_page_config(page_title="Stock Analysis Dashboard", layout="wide")
 st.title("Stock Analysis Dashboard")
 
